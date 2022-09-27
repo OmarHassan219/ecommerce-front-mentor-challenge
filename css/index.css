@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+}
+
+:root{
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: Kumbh Sans;
+    
+}
+/* start header  */
+
+
+
+
+header .container .icava .cart-icon{
+  position: relative;
+    display: inline;
+    
+    }
+header .container .icava .cart-icon .sala{
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    display: none;
+    position: absolute;
+    
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    width: 23px;
+    height: 15px;
+    top: -4px;
+    padding: 4px 6px;
+    font-size: 12px;
+    left: 15px;
+    }
+
+    header .container .icava .cart-products{
+        position: absolute;
+        box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 30%);
+        bottom: -250px;
+        left: 50%;
+        display: none;
+        transform: translateX(-50%);
+        width: 290px;
+       background-color: white;
+      height: 220px;
+      border-radius: 7px;
+     
+        }
+        header .container .icava .vanish{
+            display: block;
+        }
+
+        header .container .icava .cart-products .product{
+
+            height: calc(100% - 78px);
+        }
+        header .container .icava .cart-products .product .empty{
+display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center; 
+            font-size: 13px;
+             font-weight: bold; 
+             color: hsl(228, 6%, 65%);
+        }
+
+        header .container .icava .cart-products .product .choice img{
+width: 40px;
+height: 40px;
+border-radius: 4px;
+margin-right: 10px;
+
+        }
+        header .container .icava .cart-products .product .choice {
+          
+width: 100%;
+        }
+        header .container .icava .cart-products .product .choice .inner-choice{
+          
+display: flex;
+align-items: center;
+        }
+        header .container .icava .cart-products .product .choice .checkout {
+          cursor: pointer;
+            color: white;
+            background-color: hsl(26, 100%, 55%);
+            padding: 10px 30px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px;
+                    }
+        header .container .icava .cart-products .product .choice .right{
+font-size: 13px;
+color: hsl(226, 7%, 62%);
+font-weight: bold;
+margin-right: 7px;
+
+        }
+        header .container .icava .cart-products .product .choice .del{
+width: 15px;
+height: 17px;
+cursor: pointer;
+        }
+        header .container .icava .cart-products .product .choice .right .shoes{
+margin-bottom: 0;
+        }
+        header .container .icava .cart-products .product .choice .right .price{
+color: black;
+        }
+
+
+header .container .icava img:last-child{
+width: 60px;
+height: 60px;
+
+}
+
+header .start nav ul li a{
+    color: #8c8c8c;
+  text-decoration: none;
+  margin-right: 25px;
+position: relative;
+    }
+@media (min-width:992px){
+
+    header .start nav ul li a::before{
+        content: "";
+        bottom: -45px;
+        left: 0;
+        background-color: hsl(26, 100%, 55%);
+        width: 110%;
+        height: 4px;
+        position: absolute;
+        display: none;
+            }
+        
+            header .start nav ul li a:hover::before{
+                display: block;
+            }
+
+
+
+}
+ 
+
+
+
+
+
+
+
+
+/* end header  */
+
+
+/* start land */
+.land .container .first{
+    max-width: 100%;
+}
+.land .container .second{
+    max-width: 100%;
+}
+
+.land .big-img img{
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.land .thumb{
+width: 400px;
+
+}
+
+
+
+
+.land .thumb .col-3 .box.active{
+    border-radius:13px ;
+    border: 3px solid  hsl(26, 84%, 48%);
+   
+}
+
+
+.land .thumb .col-3 .box img{
+width: 80px;
+height: 81px;
+border-radius:10px ;
+cursor: pointer;
+}
+.land .thumb img.active{
+
+opacity: 0.5;
+}
+
+.land .thumb img:hover{
+opacity: 0.5;
+
+
+}
+
+
+.land .company{
+    width: 400px;
+    max-width: 100%;
+}
+.land .company > p{
+    font-size: 12px;
+font-weight: bold;
+letter-spacing: 1px;
+color: hsl(26, 100%, 55%);
+}
+
+
+.land .company .text p{
+    font-size: 14px;
+    color: hsl(219, 9%, 45%);
+}
+
+.land .company .percent{
+font-size: 13px;
+color: hsl(26, 100%, 55%);
+font-weight: bold;
+padding: 1px 6px;
+border-radius: 5px;
+background-color: hsl(25, 100%, 94%);
+
+}
+
+
+.land .company span strike{
+
+color:hsl(219, 9%, 45%);
+font-size: 13px;
+
+}
+
+.land .company .add-cart .plus-minus{
+background-color:hsl(25, 100%, 94%) ;
+padding: 10px;
+font-size: 14px;
+border-radius: 10px;
+}
+
+.land .company .add-cart {
+    width: 400px;
+    max-width: 100%;
+}
+.big-img i{
+   display: none;
+   
+    }
+.land .company .add-cart .cartt{
+    background-color:  hsl(26, 100%, 55%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.land .company .add-cart .cartt img{
+   width: 18px;
+margin-right: 10px;
+
+
+}
+
+
+
+/* end land  */
+/* start third  */
+
+.row1{
+    background-color: rgba(0, 0, 0, 80%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    max-height: 100vh;
+   display: none;
+    height: 100%;
+    width: 100%;
+    transform: translate(-50% , -50% );
+
+}
+
+.row1 .shown{
+width: 400px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50% , -50% );
+}
+.row1 svg{
+    position: absolute;
+    right: 400px;
+    top: 80px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.row1 .shown img{
+    max-width: 100%;
+    border-radius: 15px;
+    position: relative;
+    user-select: none;
+}
+
+
+.shown  i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.shown i:hover{
+color: red;
+}
+
+.shown  .left{
+left: -60px;
+}
+.shown  .right{
+right: -60px;
+}
+
+.row1 .shown img.active{
+
+    opacity: 0.5;
+    }
+    .row1 .shown .box img{
+        cursor: pointer;
+    }
+    .row1 .shown .box img:hover{
+        opacity: 0.5;
+        
+        
+        }
+
+
+
+
+
+
+
+
+
+
+/* end third  */
+
+
+
+@media(max-width:991px){
+body{
+    position: relative;
+}
+    header .start nav{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    display: none;
+    height: 100%;
+    z-index:1;
+    background-color: rgba(0, 0, 0, 80%);
+    transition:opacity 0.5s linear;
+    height: 100%;
+    }
+    
+    
+    
+    header .start nav ul .close{
+    padding-left: 16px;
+    margin-bottom: 30px;
+    
+    }
+    
+    header .start nav ul .close img , header .men img{
+        cursor: pointer;
+    }
+    header .start nav ul img{
+    width: 15px;
+    height: 15px;
+    
+        }
+    header .start nav ul{
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    padding-top: 50px;
+    background-color: white;
+    
+    }
+    header .start nav ul li a{
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    }
+    header .container .icava img:last-child{
+        width: 25px;
+        height: 25px;
+        
+        }
+        .big-img{
+            position: relative;
+        }
+        
+        
+        
+        .big-img  i{
+            position: absolute;
+            top: 40%;
+            transform: translateY(-50%);
+            background-color: white;
+            font-size: 17px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header .container .icava .cart-products{
+            width: 360px;
+            z-index: 1;
+            bottom: -268px;
+            max-width: 900px;
+            left: 17%;
+            transform: translateX(-80%);
+            }
+            header .container .icava .cart-products .product .choice .inner-choice{
+          
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                        }
+        .big-img  .left{
+        left: 10px;
+        }
+        .big-img  .right{
+        right: 10px;
+        }
+        .land .big-img img{
+           max-width: 100%;
+height: 300px;
+            border-radius: 0;
+        }
+    .row1{
+        display: none;
+    
+    }
+    
+    }
